@@ -1,21 +1,23 @@
 body {
-  font-family: Arial, sans-serif;
-  background: #d82222;
+  font-family: 'Segoe UI';
+  background: #2996b1;
   margin: 0;
   padding: 20px;
   text-align: center;
 }
 
 h1 {
-  color: rgb(90, 88, 88);
+  font-family: 'Segoe UI';
+  color: rgb(68, 66, 66);
 }
 
 select {
+  font-family: 'Segoe UI';
   padding: 8px;
   margin: 20px 0;
   border-radius: 10px;
-  color: rgb(90, 88, 88);
-  background-color: aqua;
+  color: white;
+  background-color: rgb(68, 66, 66);
 }
 
 ul {
@@ -26,7 +28,7 @@ ul {
 }
 
 li {
-  background: rgb(90, 88, 88);
+  background: rgb(68, 66, 66);
   margin: 10px 0;
   padding: 10px;
   border-radius: 5px;

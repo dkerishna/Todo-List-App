@@ -37,7 +37,7 @@ function displayTodos(todos) {
     checkbox.checked = todo.completed;
 
     const span = document.createElement('span');
-    span.textContent = `${todo.userId}: ${todo.title}`;
+    span.textContent = `[${todo.userId}]: ${todo.title}`;
 
     li.appendChild(checkbox);
     li.appendChild(span);
